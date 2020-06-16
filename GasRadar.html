@@ -2,7 +2,7 @@
 <html data-wf-domain="dbirman.com" data-wf-page="55fba4d587b56cd45b405f71" data-wf-site="5341f119d69672b10b0000e1">
    <head>
       <meta charset="utf-8"/>
-      <title>ATL Heroes - Homeless Outreach System</title>
+      <title>Gas Radar Android App</title>
       <meta content="width=device-width, initial-scale=1" name="viewport"/>
       <link href="https://uploads-ssl.webflow.com/5341f119d69672b10b0000e1/css/danbirman.webflow.580899d2d.css" rel="stylesheet" type="text/css"/>
       <link href="https://daks2k3a4ib2z.cloudfront.net/5341f119d69672b10b0000e1/54ffb08e801943031f7753a9_DB_Favicon_32x32_A.png" rel="shortcut icon" type="image/x-icon"/>
@@ -15,9 +15,9 @@
          <div class="w-container">
             <h1 class="h1-text">Gas Radar Android App</h1>
             
-            <h2 class="intro-body-text">Gas Radar is a mobile app designed for drivers who need to find gas stations near their location based on gas price, distance, ETA, services, amenities, and gas types.</h2>
+            <h2 class="intro-body-text">Gas Radar is a mobile application designed for drivers who need to find gas stations near their location based on gas price, distance, ETA, services, amenities, and gas types.</h2>
             
-            <div>----LOGO----</div>
+            <div><img id="brandlogo" style="width: 250px"src="images/GasRadarLogo.png"/> </div>
             <div class="w-row">
                <div class="w-col w-col-4"></div>
                <div class="break-line w-col w-col-4"></div>
@@ -29,7 +29,7 @@
                   <h2 class="h2-text">The Problem</h2>
                </div>
                <div class="w-col w-col-6">
-                  <p class="body-text">SOME TEXT. </p>
+                  <p class="body-text">We accounted for how transportation in the city of Atlanta is a mayor societal problem. Having a car is a very dependable asset in order to commute across the city for many residents specifically people use their car to monetize their ride-sharing services. We considered these factors, and focused in the possibility to provide a mobile platform that allows drivers to explore different ways to save time, money and increase convinience when its time to look for gas stations.</p>
                </div>
             </div>
             <div class="w-row">
@@ -56,7 +56,7 @@
                   <h2 class="h2-text">Team &amp; Role</h2>
                </div>
                <div class="w-col w-col-6">
-                  <p class="body-text">I led a core team of 4 Software Developers (including myself), and took the role of UI/UX Designer with occasional support from internal developers. <br/><br/>I coordinated and led all facets of design including: user cases, storyboard, wireframes, database and prototyping.</p>
+                  <p class="body-text">I led a core team of 4 Software Developers (including myself), and took the role of UI/UX Designer with occasional support from classmates with background of software development. <br/><br/>I coordinated and led all facets of design including: user cases, storyboard, wireframes, database and prototyping.</p>
                </div>
             </div>
              
@@ -68,30 +68,45 @@
 
             <div class="w-row">
                <div>
-                  <h2 class="h2-text">Design Process</h2>
+                  <h2 class="h2-text">Initial Application Idea</h2>
                </div>
-               <div>
-                  <div id="designimages" class= "design">
-                    <div id="logo" ><img src="images/logo.png" /></div>
-                    <div id= "colorpalette"> <img src="images/colorpalette.png"/> </div>
-                    <div id="font"> <img  src="images/fonthelvetica.png" /></div>
-                  </div>
+               
 
-                  <div id="designinfo" class="design">
-                  <p  class="body-text">We plan to start out with a kiosk and work our way towards an app to allow mobility of our resources. If someone were to use our kiosk and then look for the app on their mobile device, the icon would be very recognizable as it has the same theme or colors and logo on it.</p>
-                  <p  class="body-text">Blue has a calming effect to it as our main users may be in some distress. It also is used as a sign of trust. Orange and yellow is geared more towards the volunteers that use our software. These colors are motivational and are used to inspire our volunteers to do greatness. They also bring energy and optimism for both parties using the app. Lastly, the grey is for our text so that it is easily readable but not as harsh as black would be. </p>
-                  <p class="body-text">This font is deemed to be clear and easy to read for all types of people that will come across the kiosk.</p>
+                  <div class="body-text">
+                  <ul>
+                    <li >Local drivers need an app to find gas stations near their location. They are interested in the lowest price and the best service.</li>
+                    <li>A driver is interested in a specific gas type, and it’s price.</li>
+                    <li>It is important to know if the gas station provides additional services: ATM access, air pumps, a car wash.</li>
+                    <li>A driver wants to know the rating of the gas station based on other people’s experiences.</li>
+                    <li>Some people are hungry during their trip. They want to know if it is possible to buy some food or a snack at the  gas station.</li>
+                    <li>Every driver wants to find the shortest route to the gas station. Based on the current car location, we can find the fastest way to get to the gas station.</li>
+                  </ul>
                 </div>
               </div>
-                  
+                  <!--BreakLine starts--> <div class="w-row">
+               <div class="w-col w-col-4"></div>
+               <div class="break-line w-col w-col-4"></div>
+               <div class="w-col w-col-4"></div>
+            </div><!--Breakline ends-->
                   
                   <div class="w-row">
                      <div>
                     <h2 class="h2-text">Wireframes</h2>
                   </div>
-                    <img src="images/wireframe1.png" style="padding-top: 100px; " /> <img src="images/wireframe2.png"/> <div style="margin: 0; margin-left: 50px; margin-top: 50px;"><p>Many shelters and services are geared towards specific age/gender groups, so in order to provide accurate info, it is necessary to do a quick check</p></div>
+                  <p>We sketched our wireframes using LucidChart software to visualize the User Design for mobile devices made on Android platform</p>
+                    <img src="images/GasStoryboard.png" style="padding-top: 100px; " /> <div style="margin: 0; margin-left: 50px; margin-top: 50px;">
+                      <p>
+                        <strong>Sign Up Page:</strong> Displays button items for the user to sign up with email, facebook or google. Also if the user is continuing as a guest or log in back.<br><br>
+                        <strong>Log In Page:</strong> Displays plain text items for user to log in with their account.<br><br>
+                        <strong>Gas Type Page:</strong> Displays button items for the user to choose their prefered gas type as their default or skip if not interested.<br><br>
+                        <strong>Map and List View:</strong> Displays a map view and a list view showing the gas stations available based on user's location and display a list of gas stations with price, distance and time information.<br><br>
+                        <strong>FilterView:</strong> Displays all filtering criteria that the user is interested to select and returns the results with a button.<br><br>
+                        <strong>GasView:</strong> Displays a specific gas station information when pressed from the list view showing its address, phone, price, amenities, hours of operation, and a button to get directions to their destination by Google Maps app.<br><br>
+                        <strong>Search View:</strong> Returns gas stations results requested by the user in the map and list view.<br><br>
+                        <strong>Menu View:</strong> Displays the user account information, settings and their saved favorite gas locations.
+                      </p></div>
                   </div>
-               </div>
+               
             <div class="w-row">
                <div class="w-col w-col-4"></div>
                <div class="break-line w-col w-col-4"></div>
@@ -99,61 +114,54 @@
             </div>
             <div class="w-row">
                <div>
-                  <h2 class="h2-text">UI/UX Design</h2>
+                  <h2 class="h2-text">User Interface Design</h2>
                </div>
                <div>
-                  <div class="design" id="designinfo"><p class="body-text">The objective of the interface was to keep the app easy to use, read, and navigate, and give a safe atmosphere. This was accomplished through the use of clean backgrounds, color contrasted texts, large font sizes, symbols and icons.</p> </div>
-                  <div class="design" id="designimages"><img id="uidesign" src="images/ui_design.png"/></div>
+                  <div ><p class="body-text">The objective of the interface is to consider a Map View where the user can find gas stations based on it's location and a list view showing gas station information. The interface includes a search engine focused to locate only gas stations from a 12-mile perimeter based on its location ignoring other retail locations or shops. <br><br> Also the interface allows to show more details from the list view for each gastion showing different gas type prices, address of vicinity, phone number, rating, and logo. As the user chooses a gas station, the Map View allows to get directions from their position to their destination with Google's Map turn-by-turn directions.</p>
+                  </div>
+                  
                </div>
             </div>
             
-
-            <div class="w-row">
-               <div class="w-col w-col-6">
-                  <h2 class="h2-text">Interaction Design</h2>
-               </div>
-               <div class="w-col w-col-6">
-               </div>
-            </div>
             <div style="padding-top: 50px;">
                 <div class="w-row">
                  <div class="w-col w-col-6">
-                    <img src="images/startscreen.png" class="grin-app-screens"/>
+                    <img src="images/gasradar1.png" class="grin-app-screens"/>
                     <p class="body-text image-captions phone-captions">Start Screen</p>
                  </div>
                  <div class="w-col w-col-6">
-                    <img src="images/homescreen.png" class="grin-app-screens"/>
-                    <p class="body-text image-captions phone-captions">Home Screen</p>
+                    <img src="images/gasradar2.png" class="grin-app-screens"/>
+                    <p class="body-text image-captions phone-captions">Sign Up Screen</p>
                  </div>
               </div>
               <div class="w-row">
                  <div class="w-col w-col-6">
-                    <img src="images/needhelp.png" class="grin-app-screens"/>
-                    <p class="body-text image-captions phone-captions">Types of Resources if User Needs Help</p>
+                    <img src="images/gasradar3.png" class="grin-app-screens"/>
+                    <p class="body-text image-captions phone-captions">Login Screen</p>
                  </div>
                  <div class="w-col w-col-6">
-                    <img src="images/shelterresults.png" class="grin-app-screens"/>
-                    <p class="body-text image-captions phone-captions">Results Shelters Available</p>
+                    <img src="images/gasradar4.png" class="grin-app-screens"/>
+                    <p class="body-text image-captions phone-captions">Home Page</p>
                  </div>
               </div>
               <div class="w-row">
                  <div class="w-col w-col-6">
-                    <img src="images/helpoptions.png" class="grin-app-screens"/>
-                    <p class="body-text image-captions phone-captions">Types of Support if User Wants to Volunteer</p>
+                    <img src="images/gasradar5.png" class="grin-app-screens"/>
+                    <p class="body-text image-captions phone-captions">Results Page</p>
                  </div>
                  <div class="w-col w-col-6">
-                    <img src="images/moneyresults.png" class="grin-app-screens"/>
-                    <p class="body-text image-captions phone-captions">Results of Places to Donate Money</p>
-                 </div>
+               <img src="images/gasradar6.png" class="grin-app-screens"/>
+                  <p class="body-text image-captions phone-captions">Searching Feature</p>
+               </div>
               </div>
             <div class="w-row">
                <div class="w-col w-col-6">
-               <img src="images/eventinfo.png" class="grin-app-screens"/>
-                  <p class="body-text image-captions phone-captions">List of Events for Homeless and Volunteers to Be Involved</p>
+                  <img src="images/gasradar7.png" class="grin-app-screens"/>
+                  <p class="body-text image-captions phone-captions">Map Location Feature</p>
                </div>
                <div class="w-col w-col-6">
-                  <img src="images/printfunction.png" class="grin-app-screens"/>
-                  <p class="body-text image-captions phone-captions">Printing Feature when User Requests to Print Information</p>
+                  <img src="images/gasradar8.png" class="grin-app-screens"/>
+                  <p class="body-text image-captions phone-captions">App Redirects to Google Maps for Directions</p>
                </div>
             </div>
             </div>
@@ -169,16 +177,16 @@
                <div class="w-col w-col-6" style="width: 100%">
                   <h2 class="h2-text">Outcome</h2>
                </div>
-               <div id="adobexd">
-                <a target="_blank" href="https://xd.adobe.com/view/1fd84036-fab5-4a55-6d37-81bd0e2d41c8-69e9/?fullscreen"><img src="images/img-1.png"></a>
+               <div id="gasradar">
+                <a target="_blank" href="https://github.com/rafaelhdza/GasRadar"><img style="width: 400px" src="images/img-2.png"></a>
 
-                <div style="margin-top:50px;margin-right: 25%; margin-left: 25%;" ><h4 class="case-study-subtitle">
-                  <a target="_blank" href="https://xd.adobe.com/view/1fd84036-fab5-4a55-6d37-81bd0e2d41c8-69e9/?fullscreen">Try out ATL Heroes UI/UX Design</a></h4></div>
+                <div style="margin-top:50px;margin-right: 5%; margin-left: 5%;" ><h4 class="case-study-subtitle">
+                  <a target="_blank" href="https://github.com/rafaelhdza/GasRadar">Learn more about Gas Radar's Back-End on Github</a></h4></div>
 
                </div>
                <div class="w-col w-col-6" style="float: right">
-                  <p class="body-text">We conducted a usability testing plan to assess the effectiveness of the system, to identify areas of improvement, and areas of success. Our goal was to to gather enough information by testing our prototyped system to potential users who are interested in taking roles to different sets of scenarios related to homelessness. This process involves asking for help, volunteering services, and being involved with events in the community. <br><br>
-                  Our findings were collected from 10 participants. So far 60% of people are aware of local public services such as shelters, food banks, and non-profit while 40% of people know a few of those services.<br> <br>We also found that the majority of users' experience with the system was friendly to use, and that they believe this system would be benefitial if they were to find in desperate need of resources.   </p>
+                  <p class="body-text">For our Mobile Application Class we succesfully developed our first mobile application on Android platform in a period of 4 months. <br><br>
+                  During our development we had some limitations such as finding accurate information about gas prices as we had to web scrape data from Gas Buddy website, and there was not given any API or database to plugin into our application. Still our application accomplishes about goal to provide information to drivers about gas price, distance, ETA, services, amenities, gas types, driving directions all based on their location.</p>
                </div>
             </div>
          </div>
